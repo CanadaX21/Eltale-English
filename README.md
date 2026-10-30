@@ -100,9 +100,19 @@ Everything else, including stats, enemies and difficulty, is the original game.
 - **Translation, design and code:** CanadaX21. Everything after Landmine36's patch, the early 2026 builds included.
 - **Landmine36:** the 2022 Eltale Monsters patch. Its item, spell and monster names, its English map pages and its
   battle font are where this project began.
-- **vbhayden:** Quest 64 decompilation work (decomp.me scratches and Lua resources). It helped map the game's camera,
+- **zmarotrix:** [Eltale Odyssey](https://github.com/zmarotrix/Eltale-Odyssey), where the Z-targeting idea came from.
+
+### Decompilation and research
+
+The code changes stand on the community's work decompiling Quest 64 and Eltale Monsters:
+
+- **Mallos31:** the [Eltale Monsters](https://github.com/Mallos31/EM) and [Quest 64](https://github.com/Mallos31/Quest)
+  decompilations, and the Quest 64 function spreadsheet linked from them.
+- **Rainchus:** the [Quest 64 decompilation](https://github.com/Rainchus/Quest64-Decomp),
+  [Quest 64: Recompiled](https://github.com/Rainchus/Quest64-Recomp) and Quest 64 scratches on decomp.me.
+- **vbhayden:** Quest 64 scratches on decomp.me and
+  [Quest-64-Lua-Resources](https://github.com/vbhayden/Quest-64-Lua-Resources). They helped map the game's camera,
   collision and menu code.
-- **zmarotrix:** Eltale Odyssey, where the Z-targeting idea came from.
 - Names and some artwork follow Quest 64's English release.
 
 ## Disclaimer
