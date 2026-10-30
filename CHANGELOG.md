@@ -6,8 +6,8 @@ The first full release.
 
 - The complete English translation: dialogue, signs, boss speeches, the ending, the epilogue scroll, the backstory
   pages, menus and save screens.
-- Modern controls: the D-pad, the field camera (Z snap, R rotate, L zoom), Z-targeting in battle with a lock-on
-  camera and side views, and a steadier battle camera.
+- Modern controls: the item menu on B (R in the Japanese release), the D-pad, the field camera (Z snap, R rotate,
+  L zoom), Z-targeting in battle with a lock-on camera and side views, and a steadier battle camera.
 - A new item menu with fixed slots and counts.
 - New Map page maps for seven areas, plus a spirit tracker on every map, the Status page and a redesigned Elements
   page.

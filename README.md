@@ -60,7 +60,8 @@ Use an in-game save, not an emulator savestate from another version of the patch
   gem marks the target, its MONSTER card stays on screen, and the camera frames the two of you. While locked, hold R
   or L for a side view; a staff swing brings the camera back behind Brian.
 - **Battle camera:** hold L or R to rotate it. When you escape a battle, Brian turns back the way he was facing.
-- **Menus:** confirm with A. The item bar closes with B.
+- **Item menu on B:** B opens and closes the item menu. In the Japanese release it was R, which now rotates the
+  camera, and B held the camera behind Brian, which is now Z. Confirm with A.
 
 ### New features
 - **Item menu:** every item has a fixed slot with a count.
@@ -88,12 +89,14 @@ Everything else, including stats, enemies and difficulty, is the original game.
 |---|---|---|
 | Stick | Move | Move inside the movement ring |
 | A | Talk, examine, open, confirm | Swing the staff |
-| B | Cancel, close the item bar | Cancel |
+| B | Open and close the item menu; cancel | Open and close the item menu; cancel |
 | C buttons / D-pad | Spirits and spells | Spirits and spells |
 | Z | Tap: camera behind Brian. Hold: keep it there | Tap: face the enemy. Hold: lock on |
 | R | Hold to rotate the camera | Hold to rotate; while locked, a side view |
 | L | Zoomed-out view (outdoors) | Hold to rotate; while locked, the other side view |
 | Start | Start menu (Status, Map, Elements, Environment) | |
+
+Changed from the Japanese release: the item menu moved from R to B, and the camera button from B to Z.
 
 ## Credits
 
