@@ -29,8 +29,8 @@ brings in modern controls and some quality-of-life features.
 
    | | |
    |---|---|
-   | CRC32 | `61D24808` |
-   | SHA-1 | `af3e36a343beba4a33026a3f89545a724435d01d` |
+   | CRC32 | `CE75A721` |
+   | SHA-1 | `77eba8e4163262a8502b9214dec4320fb8de7ce7` |
 
 A BPS patch checks the ROM it is given. If the patcher refuses your ROM, it is not the expected Japanese dump.
 
