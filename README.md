@@ -22,8 +22,7 @@ brings in modern controls and some quality-of-life features.
 
 ## How to patch
 
-1. Open [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) in your browser, or use
-   [Flips](https://github.com/Alcaro/Flips).
+1. Open [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) in your browser.
 2. Pick your Japanese ROM and `Eltale_English.bps`, then apply the patch.
 3. Play the patched ROM. It should match:
 
