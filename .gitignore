@@ -1,0 +1,14 @@
+# No ROMs, patches or saves in the repository: the patch is a Release download
+*.z64
+*.n64
+*.v64
+*.rom
+*.bps
+*.ips
+*.pak
+*.sra
+*.eep
+*.fla
+*.mpk
+*.zip
+*.7z
