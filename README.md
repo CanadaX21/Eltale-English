@@ -97,7 +97,9 @@ Everything else, including stats, enemies and difficulty, is the original game.
 
 ## Credits
 
-- **Translation, design and code:** CanadaX21. Everything after Landmine36's patch, the early 2026 builds included.
+- **Translation, planning, design and the project as a whole:** CanadaX21, from the hand-made early 2026 builds on.
+- **Claude** (Anthropic's AI model): the tool that took CanadaX21's hand-made mod and added a level of polish that
+  wouldn't have been reachable alone.
 - **Landmine36:** the 2022 Eltale Monsters patch. Its item, spell and monster names, its English map pages and its
   battle font are where this project began.
 - **zmarotrix:** [Eltale Odyssey](https://github.com/zmarotrix/Eltale-Odyssey), where the Z-targeting idea came from.
