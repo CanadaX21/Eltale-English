@@ -101,6 +101,7 @@ Everything else, including stats, enemies and difficulty, is the original game.
 - **Landmine36:** the 2022 Eltale Monsters patch. Its item, spell and monster names, its English map pages and its
   battle font are where this project began.
 - **zmarotrix:** [Eltale Odyssey](https://github.com/zmarotrix/Eltale-Odyssey), where the Z-targeting idea came from.
+- Names and some artwork follow Quest 64's English release.
 
 ### Decompilation and research
 
@@ -113,7 +114,6 @@ The code changes stand on the community's work decompiling Quest 64 and Eltale M
 - **vbhayden:** Quest 64 scratches on decomp.me and
   [Quest-64-Lua-Resources](https://github.com/vbhayden/Quest-64-Lua-Resources). They helped map the game's camera,
   collision and menu code.
-- Names and some artwork follow Quest 64's English release.
 
 ## Disclaimer
 
