@@ -28,8 +28,8 @@ brings in modern controls and some quality-of-life features.
 
    | | |
    |---|---|
-   | CRC32 | `CE75A721` |
-   | SHA-1 | `77eba8e4163262a8502b9214dec4320fb8de7ce7` |
+   | CRC32 | `206DE52D` |
+   | SHA-1 | `9d93339076ead19a758634afe59021f1674d5c48` |
 
 A BPS patch checks the ROM it is given. If the patcher refuses your ROM, it is not the expected Japanese dump.
 
@@ -53,8 +53,9 @@ Use an in-game save, not an emulator savestate from another version of the patch
 
 ### Controls and camera
 - **D-pad:** works like the C buttons for choosing a spirit, and moves through the menus.
-- **Field camera:** tap Z to swing the camera behind Brian; hold Z to keep it there. Hold R to rotate the camera in
-  towns, fields and dungeons. Press L outdoors to switch between the normal view and a zoomed-out one.
+- **Field camera:** tap Z to swing the camera behind Brian; hold Z to keep it there (pull the stick back and Brian
+  walks toward the camera while it holds still). Hold R to rotate the camera in towns, fields and dungeons. Press L
+  outdoors to switch between the normal view and a zoomed-out one.
 - **Z-targeting in battle:** on Brian's turn, tap Z to face the enemy in front of him. Hold Z to stay locked on: a
   gem marks the target, its MONSTER card stays on screen, and the camera frames the two of you. While locked, hold R
   or L for a side view; a staff swing brings the camera back behind Brian.
