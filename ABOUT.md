@@ -81,7 +81,7 @@ polish project.
 1. **The Japanese script is the story.** Who says what, why, and what it reveals stays the same.
 2. **Natural English, not word for word.** Readability comes first, but the meaning stays.
 3. **Quest 64 supplies the names** a North American player knows. Japanese-derived names only where Quest has none.
-   Monster names came from Landmine36's patch and mostly matched Quest; the next update brings the rest in line.
+   Monster names are the exception: I kept Landmine36's names, which mostly match Quest.
 4. **Never cut story to fit the ROM.** If text doesn't fit, move it or fix the engine.
 5. **Additions need a reason:** the player would otherwise be stuck or unaware, or the game already establishes the fact.
    They must not contradict the Japanese.
@@ -190,5 +190,5 @@ script. If you spot something off, please open an issue.
 ## What's next
 
 - Real hardware testing.
-- A 1.0.1 update with small fixes, including monster names that match Quest 64.
+- A 1.0.1 update with small fixes.
 - A balance pass, starting from my original principles. It may ship as an optional patch.
