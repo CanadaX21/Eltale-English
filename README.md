@@ -14,10 +14,17 @@ were, in order:
 It is not an overhaul. The world, story, enemies, stats and progression are Eltale's own, and every gameplay change is
 listed below with its original value.
 
+I'm not pretending a patch could have saved this game's reputation. The plans for it were far bigger than what shipped. The
+question I kept asking was smaller: within the game we actually have, how much more finished could it have felt, sitting on a
+shelf next to Ocarina of Time? If you play this and then go back to Quest 64, I hope you can feel the difference. I want this to
+be the most complete way to play Eltale in English.
+
+I also organized the ROM so that anyone can use it as a base for their own mods or balance patches.
+
 **Want the full story?** [ABOUT.md](ABOUT.md) covers what Eltale is, how it differs from Quest 64, where both games fell
 short, my English sources, and where I diverged from them and why. It contains story spoilers.
 
-**Version 1.0**. Download `Eltale_English.bps` from the [Releases](../../releases) page.
+**Version 1.1**. Download `Eltale_English.bps` from the [Releases](../../releases) page.
 
 ## What you need
 
@@ -40,8 +47,8 @@ short, my English sources, and where I diverged from them and why. It contains s
 
    | | |
    |---|---|
-   | CRC32 | `206DE52D` |
-   | SHA-1 | `9d93339076ead19a758634afe59021f1674d5c48` |
+   | CRC32 | `7A653828` |
+   | SHA-1 | `9ed3b1f983f01a625f60b8355b03cb0592c5eaab` |
 
 A BPS patch checks the ROM it is given. If the patcher refuses your ROM, it is not the expected Japanese dump.
 
@@ -96,7 +103,9 @@ Changed from the Japanese release: the item menu moved from R to B, and the came
   A floating gem marks the target, its MONSTER card stays on screen, and the camera frames the two of you.
 - **Side views:** while locked on, hold R or L for a side view. A staff swing brings the camera back behind Brian.
 - **Battle camera:** hold L or R to rotate it, with steadier aim and follow.
-- **Identified enemies:** Soul Searcher's mark is a gem in the enemy's element colour instead of the spell's big orb.
+- **Soul Searcher works with Z-targeting:** an identified enemy carries a gem in its element's colour instead of the spell's big
+  orb, and locking on shows its stats on the MONSTER card.
+- **The gem** sits at a height set for each monster, so it floats just above it.
 
 ### Quality of life
 - **Brian keeps his heading after a battle, whether you win or run.** Eltale already restored it after a win. Escaping
@@ -114,19 +123,31 @@ Changed from the Japanese release: the item menu moved from R to B, and the came
 - **On B** (originally R). A uses an item.
 - Your saves keep track of which items you have found. Older saves still work.
 
-### Maps and the Start menu
+### Getting around: maps, feather and compass
+- **The feather and compass now work in forests and caves.** The original only let you place the feather on the overworld maps.
+  In the Blue Cave you got a map of West Carmagh with a fixed marker, and no way to use the feather at all, which is a big part of
+  why that maze feels so lost. Now you can set the feather and follow it on the HUD compass there too, or keep it north or south of
+  you to stay oriented.
 - **New maps** for Connor Forest, Glencoe Forest, Windward Forest, the Blue Cave, Baragoon Tunnel, Boil Hole and Cull
-  Hazard, drawn from the game's own layouts in the style of the original maps. Each shows Brian's position, and the map
-  feather works on them.
-- **Spirit tracker:** every Map page counts the spirits found in its area, and gems mark the ones still waiting. The
-  Status page has a Spirits row. The original game counted nothing.
-- **Elements page** redesigned: the four elements around an orb that fills as Brian's spirits grow.
+  Hazard, drawn from the game's own layouts in the style of the original maps. Each shows Brian's position.
 - **Feather cursor:** it speeds up as you hold a direction, so a tap moves it about a pixel (originally it jumped).
-- **Menu controls:** the D-pad works in menus and on the title screen, and L also turns Start menu pages left.
+
+### Start menu
+- **Spirit tracker:** Map pages can count the spirits found in their area and mark the ones still waiting with gems. The Status
+  page has a Spirits row. The original game counted nothing.
+- **Help setting** on the Environment page, inspired by a Help switch in a beta menu shown in a magazine: **none** hides the Map
+  pages' counter and gems, the **middle** (the default) shows the counter, and **full** adds the gems. It saves with your game.
+- **Elements page** redesigned: the four elements around an orb that fills as Brian's spirits grow.
+- **Status and Environment pages** cleaned up: a dark parchment column behind the labels, better spacing, and Quest 64's own
+  title lettering. The min, max, none and full labels share one font and line up.
+- **Menu controls:** the D-pad works in menus and on the title screen, L also turns Start menu pages left, and B now backs out of the
+  Environment page's rows as A does.
 
 ### On-screen display
-- **MONSTER card:** moved to the top right, wider so every name fits, and it shows that enemy's own current HP and
-  live Def and Agi (originally the HP was the kind's maximum).
+- **HUD:** HP and MP, the element gems and the compass are moved and aligned along the screen's edges, with the element gems
+  now in a diamond.
+- **MONSTER card:** moved to the top right to mirror HP and MP, wider so every name fits, and it shows that enemy's own current HP
+  and live Def and Agi (originally the HP was the kind's maximum).
 - **Spell labels:** wider, with Quest 64's full spell names. Bosses have names on the card.
 - **Text and layout:** roomier dialogue box, centred signs and menu text, and sharper lettering.
 
@@ -136,6 +157,7 @@ Changed from the Japanese release: the item menu moved from R to B, and the came
 | Spell MP cost for one / two / three element presses | 3 / 5 / 7 | 1 / 2 / 3 |
 | MP restored by a staff hit | 1 to 3 at random | 1 |
 | Wings | Not used up | Used up |
+| Battle drops are kept until you hold | 5 of that item | 3 |
 | Soul Searcher Lv1 | Always marks its target | The enemy could avoid it |
 | Length of a Soul Searcher mark | 3 to 5 enemy turns | 2 to 4 |
 | Dondoran Castle's secret passage opens with | The Earth Orb | The Wind Jade |
@@ -147,20 +169,14 @@ Everything else, including stats, enemies and difficulty, is the original game.
 
 ### Bug fixes
 - Mashing A no longer drops the last line of a message, and a full last line no longer leaves a blank page.
+- At the Message slider's max setting, messages getting stuck at their end, and blank pages after a full last line (both in 1.0).
 - From earlier English patches: overlong text that froze the game at Nepty, and monster names that showed the wrong text
   on the MONSTER card.
 - Thin lines on the map pages under GLideN64.
 
-## Known issues
-
-- **Don't set Message to max.** In version 1.0, with the Environment page's Message slider all the way to max, a dialogue box
-  gets stuck at the end of a message and you can't close it, so you'd have to reset and go back to your last save. Pages can also
-  show an extra blank page. Every other setting works. Both are my bugs, not the original game's, and they're fixed for the next
-  update.
-
 ## What this version doesn't do
 
-- **Balance is not reworked.** MP costs and staff MP are the only balance changes. Spell, element and grinding issues
+- **Balance is not reworked.** MP costs, staff MP and how many of an item you can get from drops are the only balance changes. Spell, element and grinding issues
   shared by both games are left for later.
 - **Not yet tested on real hardware.**
 

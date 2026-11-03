@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.1
+
+- **Help setting** on the Environment page: none, middle (the default) or full, for the Map pages' spirit counter and gems. It saves
+  with your game. Older saves start on the middle.
+- **Fixed:** at the Message slider's max setting, messages got stuck at their end, and a full last line added a blank page.
+- **Battle drops** are kept until you hold 5 of an item (3 in the Japanese release).
+- **Z-target gem heights** set for many more monsters.
+- **Environment page:** B backs out of the rows as A does, and the min, max, none and full labels share one font and line up.
+- Older saves still work.
+
 ## 1.0
 
 The first full release.

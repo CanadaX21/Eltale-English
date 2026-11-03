@@ -6,8 +6,12 @@
 
 Take Eltale Monsters, imagine it had more development time, then was re-translated and brought back to North America.
 
-The Japanese story comes first. Modernization and polish come second. My goal is for you to play this, go back to Quest
-64, and feel how much was left on the table, without my turning the game into something else.
+The Japanese story comes first. Modernization and polish come second.
+
+The test I kept in mind: what if this version had reached North America alongside Ocarina of Time? Would it still have its
+reputation? Probably, honestly. This game was planned to be far bigger than it ended up, and no patch can give it that back. But
+within the game we have, how much more polished and complete could it have felt? I want you to play this, go back to Quest 64, and
+feel how much was left on the table, without my turning the game into something else.
 
 ## What Eltale Monsters is
 
@@ -103,13 +107,15 @@ are the problems I set out to help with:
 | No way to aim at or stay facing an enemy | **Z-targeting with a lock-on camera** |
 | Running from a battle left you disoriented | **Brian turns back to his heading** |
 | The item list was a scrolling strip | **Fixed-slot item menu with counts** |
-| Forests and caves showed only the surrounding region's map | **Seven new area maps** |
+| Forests and caves showed only the surrounding region's map, and the feather and compass didn't work there. The Blue Cave was the worst for feeling lost | **Seven new area maps, with the feather and compass working on them** |
+| The menus and HUD showed their age | **A reworked Start menu, a tidier HUD, and Soul Searcher tied in to Z-targeting** |
 | Nothing tracked which spirits you had found | **Spirit tracker** |
 | The game could leave you unsure where to go next | **A few short, grounded hints** |
 | The monastery opens with a run of empty rooms | **Monastery rearranged** |
 | Glencoe Forest has no save point | **A save point at Kelly's house** |
 | Standing still and spamming low-cost spells | **Partly addressed:** spells cost 3 / 5 / 7 MP, staff hits restore 1 to 3 |
-| Element balance, spell progression, grinding | **Not addressed in 1.0** |
+| Items felt scarce, so healing spells did all the work | **Partly addressed:** battle drops are kept up to 5 of an item, not 3 |
+| Element balance, spell progression, grinding | **Not addressed yet** |
 
 ## Why this improves the game without overhauling it
 
@@ -121,8 +127,8 @@ monastery's layout, and the README lists them with their original values. The tw
 and reusable Wings.
 
 **What I held back from:** new quests, new areas or a new battle system. I added no new story arcs. Added text is short,
-listed below, and has a stated reason wherever I could give one. Balance is a separate job, and I left it out of 1.0 rather
-than rush it.
+listed below, and has a stated reason wherever I could give one. Balance is a separate job, and I've left most of it out rather than
+rush it.
 
 ## My English sources, and where I diverged
 
@@ -180,7 +186,7 @@ I built the early versions by hand, on top of Landmine36's patch, and the transl
 whole are mine. Claude, Anthropic's AI model, was the tool that took that hand-made mod and added a level of polish I
 couldn't have reached alone.
 
-I also reorganized the ROM into a documented base for other mods and balance patches. I'm happy to share the docs.
+I also built the ROM to be a documented base for other people's mods and balance patches. I'm happy to share the docs.
 
 ## If you read Japanese
 
@@ -190,5 +196,4 @@ script. If you spot something off, please open an issue.
 ## What's next
 
 - Real hardware testing.
-- A 1.0.1 update with small fixes.
 - A balance pass, starting from my original principles. It may ship as an optional patch.
