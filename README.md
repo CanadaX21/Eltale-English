@@ -24,7 +24,7 @@ I also organized the ROM so that anyone can use it as a base for their own mods 
 **Want the full story?** [ABOUT.md](ABOUT.md) covers what Eltale is, how it differs from Quest 64, where both games fell
 short, my English sources, and where I diverged from them and why. It contains story spoilers.
 
-**Version 1.1**. Download `Eltale_English.bps` from the [Releases](../../releases) page.
+**Version 1.1.1**. Download `Eltale_English.bps` from the [Releases](../../releases) page.
 
 ## What you need
 
@@ -47,8 +47,8 @@ short, my English sources, and where I diverged from them and why. It contains s
 
    | | |
    |---|---|
-   | CRC32 | `7A653828` |
-   | SHA-1 | `9ed3b1f983f01a625f60b8355b03cb0592c5eaab` |
+   | CRC32 | `7E72C914` |
+   | SHA-1 | `9b2c1819bf9e84a884cae5e6c4e6b6bdb5f9e03f` |
 
 A BPS patch checks the ROM it is given. If the patcher refuses your ROM, it is not the expected Japanese dump.
 
@@ -102,7 +102,8 @@ Changed from the Japanese release: the item menu moved from R to B, and the came
 - **Z-targeting:** on Brian's turn, tap Z to face the enemy in front of him. Hold Z to stay locked on while you move.
   A floating gem marks the target, its MONSTER card stays on screen, and the camera frames the two of you.
 - **Side views:** while locked on, hold R or L for a side view. A staff swing brings the camera back behind Brian.
-- **Battle camera:** hold L or R to rotate it, with steadier aim and follow.
+- **Battle camera:** hold L or R to rotate it. It follows Brian smoothly as he moves around a fight, where the Japanese release
+  turned in 22.5-degree steps.
 - **Soul Searcher works with Z-targeting:** an identified enemy carries a gem in its element's colour instead of the spell's big
   orb, and locking on shows its stats on the MONSTER card.
 - **The gem** sits at a height set for each monster, so it floats just above it.
@@ -136,7 +137,7 @@ Changed from the Japanese release: the item menu moved from R to B, and the came
 - **Spirit tracker:** Map pages can count the spirits found in their area and mark the ones still waiting with gems. The Status
   page has a Spirits row. The original game counted nothing.
 - **Help setting** on the Environment page, inspired by a Help switch in a beta menu shown in a magazine: **none** hides the Map
-  pages' counter and gems, the **middle** (the default) shows the counter, and **full** adds the gems. It saves with your game.
+  pages' counter and gems and the Elements page's found counter, the **middle** (the default) shows the counter, and **full** adds the gems. It saves with your game.
 - **Elements page** redesigned: the four elements around an orb that fills as Brian's spirits grow.
 - **Status and Environment pages** cleaned up: a dark parchment column behind the labels, better spacing, and Quest 64's own
   title lettering. The min, max, none and full labels share one font and line up.

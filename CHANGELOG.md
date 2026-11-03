@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.1
+
+- **Battle camera:** no more wobble when you walk around a fight. The Japanese release aims its battle camera in 22.5-degree
+  steps, and my faster camera follow made each step show. It now follows smoothly, at up to 3 degrees a frame. L, R and Z work as before.
+- **Help setting:** **none** now also hides the spirit found counter on the Elements page.
+- **Z-target gem heights** reviewed in play for all 75 monsters, bosses included.
+- Older saves still work.
+
 ## 1.1
 
 - **Help setting** on the Environment page: none, middle (the default) or full, for the Map pages' spirit counter and gems. It saves
