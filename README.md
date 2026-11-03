@@ -151,6 +151,13 @@ Everything else, including stats, enemies and difficulty, is the original game.
   on the MONSTER card.
 - Thin lines on the map pages under GLideN64.
 
+## Known issues
+
+- **Don't set Message to max.** In version 1.0, with the Environment page's Message slider all the way to max, a dialogue box
+  gets stuck at the end of a message and you can't close it, so you'd have to reset and go back to your last save. Pages can also
+  show an extra blank page. Every other setting works. Both are my bugs, not the original game's, and they're fixed for the next
+  update.
+
 ## What this version doesn't do
 
 - **Balance is not reworked.** MP costs and staff MP are the only balance changes. Spell, element and grinding issues
