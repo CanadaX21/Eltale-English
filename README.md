@@ -220,5 +220,6 @@ The code changes stand on the community's work decompiling Quest 64 and Eltale M
 
 ## Disclaimer
 
-This is a fan project. It is not affiliated with or endorsed by Imagineer, THQ or any rights holder. No ROMs are
+This is a fan project. It is not affiliated with or endorsed by Imagineer, THQ or any rights holder. The people
+credited above didn't take part in making it, and crediting their work doesn't mean they endorse it. No ROMs are
 distributed. You need your own copy of the game.
